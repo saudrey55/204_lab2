@@ -9,4 +9,9 @@ int main()
     scanf("%f",&a);
 
 
+    if (pro == 'A')
+    {
+        /* code */
+    }
+    
 }

@@ -7,13 +7,13 @@ int main()
     
     char n[1000002];
 
-    gets(n);
+    scanf("%s",n);
 
-    printf("%s",a[n[0]]);
+    printf("%s",a[n[0]-'0']);
     int i;
     for ( i = 1; i < strlen(n); i++)
     {
-         printf("-%s",a[n[i]]);
+         printf("-%s",a[n[i]-'0']);
     }
     
 

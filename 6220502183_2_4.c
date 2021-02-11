@@ -3,14 +3,14 @@
 int main()
 {
     char name;
-    int num;
+    int num,z;
 
     scanf("%c",&name);
     scanf("%d",&num);
-
-    if (num%2 !=0)
+    z=name-num;
+    if (z%2 !=0)
     {
-        if (num%5 != 0)
+        if (z%5 != 0)
         {
            if (name>='A'&&name<='I')
             {
@@ -26,7 +26,7 @@ int main()
             }
         }
         
-        else if (num%5 ==0)
+        else if (z%5 ==0)
         {
             if (name>='A'&&name<='I')
             {
@@ -42,7 +42,7 @@ int main()
             }
         }
     }
-    else if (num%2==0)
+    else if (z%2==0)
     {
         if (name>='A'&&name<='I')
             {

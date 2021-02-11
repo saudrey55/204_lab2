@@ -19,8 +19,9 @@ int main()
     else if (pro == 'B')
     {
        a=a-400;
-       a=a*2;
-        sum=299+a;
+       b=(a-(int)a)*100/30;
+        a=(int)a*2;
+        sum=299+a+b;
     }
     printf("%.2f",sum);
     

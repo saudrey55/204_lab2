@@ -11,7 +11,7 @@ int main()
 
     printf("%s",a[n[0]-'0']);
     int i;
-    for ( i = 1; i < strlen(n); i++)
+    for ( i = 1; n[i]!='\0' ; i++)
     {
          printf("-%s",a[n[i]-'0']);
     }

@@ -31,7 +31,24 @@ int main()
         }
          
     }while(i < z);
-   
+
+    for ( i = 0; i < z; i++)
+    {
+        if (s[i]=='A')
+        {
+            printf("%d ",a[0]);
+        }
+        else if (s[i]=='B')
+        {
+            printf("%d ",a[1]);
+        }
+        else if (s[i]=='C')
+        {
+            printf("%d ",a[2]);
+        }
+        
+    }
+    
    
     
 }

@@ -15,6 +15,6 @@ int main()
     default: z=31;break;
     }
 
-    day = ((a+z)%7)+1;
-    printf("%d",&day);    
+    day = (a+z-1)%7+1;
+    printf("%d",day);    
 }
